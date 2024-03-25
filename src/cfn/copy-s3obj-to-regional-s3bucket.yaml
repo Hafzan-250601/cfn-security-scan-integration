@@ -98,7 +98,7 @@ Resources:
       FunctionName:  "CopyZipsFunction"
       Description: Copies objects from a source S3 bucket to a destination
       Handler: index.handler
-      Runtime: python3.6
+      Runtime: python3.10
       Role: !GetAtt 'CopyZipsRole.Arn'
       Timeout: 240
       Code:
